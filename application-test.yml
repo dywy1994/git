@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server-test
+  cloud:
+    config:
+      uri: https://github.com/dywy1994/git/
+      server:
+        git:
+          search-paths: config-test
+          username: dywy1994  
+          password: 415285123abcd
+          
+server:
+  port: 9008
